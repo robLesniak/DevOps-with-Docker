@@ -1,0 +1,4 @@
+docker build -t backend-app .
+
+docker run -p 8000:8000 -v /home/robert/Desktop/docker/DevOps-with-Docker/1.11:/logs.txt --name backend backend-app
+
